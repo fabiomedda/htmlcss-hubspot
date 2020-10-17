@@ -46,7 +46,10 @@ body{
 }
 /* /class utility */
 
+
 /* hover */
+
+/* hover header */
 
 .nav_top div.float_left a:hover, .nav_bottom .float_right a:hover{
   color: #FE775A;
@@ -60,6 +63,16 @@ body{
 .nav_top div.float_right a:first-child:hover{
   color: #FE775A;
 }
+/* /hover header */
+
+/* main header */
+
+main #sect_1 .sect_1_bottom_left a:hover{
+  background-color: rgba(254, 119, 90, 0.7);
+}
+
+
+/* /main header */
 
 /* /hover */
 
@@ -230,6 +243,62 @@ header div.background{
 }
 
 /* /div background color */
-
-
 /* /header */
+
+
+/* main */
+/* prima sezione */
+/* prima sezione top */
+main #sect_1 .sect_1_top{
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+main #sect_1 .sect_1_top h2{
+  font-size: 2em;
+  padding: 20px;
+}
+
+main #sect_1 .sect_1_top p{
+  padding: 25;
+  line-height: 2em;
+}
+/* /prima sezione top */
+
+/* prima sezione bottom */
+
+#sect_1 .sect_1_bottom{
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px 5%;
+}
+
+main #sect_1 .sect_1_bottom_left{
+  width: 26%;
+  height: 300px;
+  text-align: center;
+}
+
+main #sect_1 .sect_1_bottom_left img{
+  height: 200px;
+  padding: 50px 0;
+}
+
+main #sect_1 .sect_1_bottom_left a{
+  padding: 20px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+/* prima /sezione bottom */
+
+/* /prima sezione */
+
+
+/* /main */
