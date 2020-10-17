@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1000px;
+}
+
+/* class utility */
+.container{
+  width: 70%;
+  margin: auto;
+}
+/* clearfix */
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* float_left */
+.float_left{
+  float: left;
+}
+/* float_right */
+.float_right{
+  float: right;
+}
+/* celeste chiaro, sfondo nav_top, main 1parte, 3parte */
+.bg_cel{
+  background: #F4F9FD;
+}
+/* arancione */
+.bg_btn{
+  background: #FE775A;
+}
+/* blu scuro */
+.col_text{
+  color: #33475B;
+}
+/* blu scuro */
+.bg_footer{
+  background: #32495B;
+}
+/* /class utility */
+
+/* hover */
+
+.nav_top div.float_left a:hover, .nav_bottom .float_right a:hover{
+  color: #FE775A;
+}
+
+#btn_center:hover{
+  color: blue;
+  border-color: blue;
+}
+
+.nav_top div.float_right a:first-child:hover{
+  color: #FE775A;
+}
+
+/* /hover */
+
+
+/* hover visited active button titolo e button nav_top right  */
+header div.titolo a:hover, #btn_right:hover{
+  background-color: rgba(254, 119, 90, 0.7);
+}
+
+header div.titolo a:visited, #btn_right:visited{
+  color: blue;
+}
+
+header div.titolo a:active, #btn_right:active{
+  color: red;
+}
+/* /hover visited active button titolo */
+/* /hover visited active */
+
+/* header */
+
+/* nav_top float_right and nav_bottom float_right */
+nav div.float_right{
+  text-align: right;
+  width: 65%;
+  height: 100%;
+}
+/* /nav_top float_right and nav_bottom float_right */
+
+
+/* nav top */
+.nav_top{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  min-width: 1000px;
+  border-bottom: 1px solid black;
+}
+
+nav div a{
+  text-decoration: none;
+}
+
+
+/* nav top left */
+.nav_top div.float_left{
+  width: 35%;
+  height: 100%;
+}
+
+.nav_top div.float_left a{
+  color: #33475B;
+}
+
+.nav_top div.float_left a:first-child{
+  padding-right: 15px;
+  border-right: 1px solid black;
+  margin-right: 15px;
+}
+/* /nav top left */
+
+/* nav top right */
+#btn_right{
+  margin-left: 20px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: white;
+}
+
+#btn_center{
+  margin-left: 20px;
+  padding: 12px 14px;
+  border: 1px solid #FE775A;
+  border-radius: 10px;
+  color: #FE775A;
+}
+
+.nav_top div.float_right a:first-child {
+  color: #0aaac9;
+}
+/* /nav top right */
+/* /nav top */
+
+/* nav bottom */
+.nav_bottom{
+  width: 100%;
+  height: 80px;
+  margin-top: 80px;
+  line-height: 80px;
+}
+
+.nav_bottom .logo img{
+  margin-top: 25px;
+}
+
+/* nav bottom right */
+.nav_bottom .float_right a{
+  color: #33475B;
+}
+
+.nav_bottom .float_right a > span{
+  padding: 0 14px;
+}
+
+/* /nav bottom right */
+/* /nav bottom */
+
+/* div background image e titolo */
+header div.bg_img{
+  height: 695px;
+  width: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-size: 100% 790px;
+  background-repeat: no-repeat;
+}
+
+div.bg_img > div.container{
+  position: relative;
+  height: 100%;
+}
+
+div.bg_img  div.titolo{
+  width: 50%;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+header div.titolo h1{
+  font-size: 2.8em;
+  margin-bottom: 25px;
+}
+
+header div.titolo p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75em;
+  margin-bottom: 25px;
+}
+
+header div.titolo a{
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+header div.titolo span{
+  font-size: 12px;
+}
+
+/* /div titolo e background image */
+
+/* div background color */
+
+header div.background{
+  height: 80px;
+  width: 100%;
+  background: #AFEBE4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* /div background color */
+
+
+/* /header */
