@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-width: 1000px;
 }
 
@@ -83,7 +83,7 @@ header div.titolo a:hover, #btn_right:hover{
 }
 
 header div.titolo a:visited, #btn_right:visited{
-  color: blue;
+  /* color: blue; */
 }
 
 header div.titolo a:active, #btn_right:active{
@@ -106,7 +106,7 @@ nav div.float_right{
 /* nav top */
 .nav_top{
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   top: 0;
   left: 0;
   height: 80px;
@@ -250,7 +250,6 @@ header div.background{
 /* prima sezione */
 /* prima sezione top */
 main #sect_1 .sect_1_top{
-  height: 400px;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -269,16 +268,16 @@ main #sect_1 .sect_1_top p{
 /* /prima sezione top */
 
 /* prima sezione bottom */
-
+/* prima sezione bottom left */
 #sect_1 .sect_1_bottom{
-  height: 400px;
+  /* height: 400px;         da modificare*/
   background-color: white;
   border-radius: 10px;
   padding: 50px 5%;
 }
 
 main #sect_1 .sect_1_bottom_left{
-  width: 26%;
+  width: 25%;
   height: 300px;
   text-align: center;
 }
@@ -295,9 +294,62 @@ main #sect_1 .sect_1_bottom_left a{
   display: inline-block;
   color: white;
 }
+/* /prima sezione bottom left */
 
-/* prima /sezione bottom */
+/* prima sezione bottom right */
+main #sect_1 .sect_1_bottom_right{
+  width: 75%;
+  padding: 50px;
+  /* padding-left: 50px; */
+  /* padding-top: 50px; */
+  height: 300px;
+}
 
+main #sect_1 .sect_1_bottom_right h3{
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+main #sect_1 .sect_1_bottom_right p{
+  line-height: 2em;
+  padding-bottom: 30px;
+}
+
+.sect_1_bottom_right_h4, .sect_1_bottom_right_hr {
+  display: inline-block;
+}
+
+.sect_1_bottom_right_h4{
+  width: 30%;
+}
+
+.sect_1_bottom_right_hr{
+  width: 65%;
+  height: 11px;
+  vertical-align: middle;
+}
+
+main #sect_1 .sect_1_bottom_right hr{
+  height: 1px;
+  border: none;
+  background-color: black;
+  margin: 5px 0;
+}
+
+main #sect_1 .sect_1_bottom_right div:last-of-type{
+  margin-top: 30px;
+}
+
+main #sect_1 .sect_1_bottom_right i{
+  color: #FE775A;
+  padding-right: 10px;
+}
+
+main #sect_1 .sect_1_bottom_right span{
+  padding-right: 10px;
+}
+/* /prima sezione bottom right */
+/* /prima sezione bottom */
 /* /prima sezione */
 
 
