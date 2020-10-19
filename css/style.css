@@ -81,6 +81,25 @@ main #sect_1 .sect_1_bottom_left a:hover{
 
 /* /main hover */
 
+/* footer hover */
+
+footer .footer_top_div_box a:hover{
+  color: #84efe8;
+}
+
+footer #btn_footer:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer .footer_bottom_div_language a:hover{
+  color: #84efe8;
+}
+
+footer .footer_bottom_div_copy_right a:hover{
+  color: #84efe8;
+}
+
+/* /footer hover */
 /* /hover */
 
 
@@ -615,3 +634,95 @@ main #sect_1 .sect_1_bottom_right span{
 /* /quarta sezione bottom */
 /* /quarta sezione */
 /* /main */
+
+/* footer */
+
+footer{
+  background-color: #2d3e50;
+  color: white;
+}
+
+footer div.container{
+  padding: 50px 0;
+}
+
+/* footer top div */
+footer .footer_top_div{
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* footer top div box */
+
+footer .footer_top_div_box{
+  width: 25%;
+}
+
+footer .footer_top_div_box h5{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+footer .footer_top_div_box a{
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  display: inline-block;
+  font-weight: 300;
+}
+
+footer #btn_footer{
+  padding: 8px;
+  border-radius: 7px;
+  background-color: white;
+  color: #2d3e50;
+}
+
+footer .footer_top_div_box i{
+  margin-top: 15px;
+  margin-right: 25px;
+}
+/* /footer top div box */
+/* /footer top div */
+
+/* footer bottom div */
+
+footer .footer_bottom_div{
+  width: 100%;
+}
+
+footer .footer_bottom_div_language{
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer .footer_bottom_div_language a{
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  margin: 0 20px;
+}
+
+footer .footer_bottom_div_copy{
+  width: 100%;
+  margin-top: 40px;
+}
+
+footer .footer_bottom_div_copy_left{
+  width: 30%;
+}
+
+footer .footer_bottom_div_copy_right{
+  width: 30%;
+  text-align: right;
+}
+
+footer .footer_bottom_div_copy_right a{
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+/* /footer bottom div */
+/* /footer */
