@@ -71,6 +71,10 @@ main #sect_1 .sect_1_bottom_left a:hover{
   background-color: rgba(254, 119, 90, 0.7);
 }
 
+.sect_2_colonna a:hover{
+  background-color: rgba(254, 119, 90, 0.7);
+}
+
 
 /* /main header */
 
@@ -300,8 +304,6 @@ main #sect_1 .sect_1_bottom_left a{
 main #sect_1 .sect_1_bottom_right{
   width: 75%;
   padding: 50px;
-  /* padding-left: 50px; */
-  /* padding-top: 50px; */
   height: 300px;
 }
 
@@ -352,5 +354,63 @@ main #sect_1 .sect_1_bottom_right span{
 /* /prima sezione bottom */
 /* /prima sezione */
 
+/* seconda sezione */
+
+#sect_2{
+  padding: 50px 0;
+}
+
+.sect_2_colonna{
+  width: 30%;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.sect_2_colonna img{
+  height: 100px;
+}
+
+.sect_2_colonna p{
+  height: 200px;
+  line-height: 2em;
+}
+
+.sect_2_colonna h3:first-of-type{
+  font-size: 24px;
+  padding: 30px 0;
+  color: #33475B;
+}
+
+.sect_2_colonna h3{
+  font-size: 20px;
+  padding: 30px 0;
+  color: #33475B;
+}
+
+.sect_2_colonna div{
+  text-align: left;
+  padding-bottom: 80px;
+}
+
+.sect_2_colonna div i{
+  color: #FE775A;
+  padding-right: 15px;
+}
+
+.sect_2_colonna a{
+  text-decoration: none;
+  padding: 20px 35px;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+}
+
+#sect_2 .sect_2_colonna:nth-child(2){
+  margin: 0 5%;
+}
+/* /seconda sezione */
 
 /* /main */
