@@ -413,4 +413,104 @@ main #sect_1 .sect_1_bottom_right span{
 }
 /* /seconda sezione */
 
+
+/* terza sezione */
+/* terza sezione top*/
+
+#sect_3{
+  height: 800px;      /* da modificare */
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.sect_3_top h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.sect_3_top p{
+  margin-bottom: 50px;
+}
+
+
+/* /terza sezione top*/
+
+/* terza sezione bottom */
+/* terza sezione bottom table top */
+.sect_3_table_top{
+  width: 100%;
+}
+
+.sect_3_table_top > div{
+  width: 25%;
+  padding: 25px 0;
+}
+
+.sect_3_table_top img{
+  height: 45px;
+}
+
+.sect_3_table_top h2{
+  font-size: 45px;
+  padding: 15px 0
+}
+
+.sect_3_table_top h2 span{
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.sect_3_table_top p{
+  font-size: 12px;
+}
+
+.sect_3_table_top .box_1, .sect_3_table_top .box_2, .sect_3_table_top .box_3{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.sect_3_table_top .box_4{
+  border-bottom: 1px solid white;
+}
+
+/* /terza sezione bottom table top */
+
+/* terza sezione bottom table bottom */
+.sect_3_table_bottom{
+  width: 100%;
+}
+
+.sect_3_table_bottom > div{
+  width: 25%;
+  padding: 25px 0;
+}
+
+.sect_3_table_bottom img{
+  height: 45px;
+}
+
+.sect_3_table_bottom h2{
+  font-size: 45px;
+  padding: 15px 0
+}
+
+.sect_3_table_bottom h2 span{
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.sect_3_table_bottom p{
+  font-size: 12px;
+}
+
+.sect_3_table_bottom .box_1, .sect_3_table_bottom .box_2, .sect_3_table_bottom .box_3{
+  border-right: 1px solid white;
+}
+
+/* /terza sezione bottom table bottom */
+/* /terza sezione bottom */
+/* /terza sezione */
+
 /* /main */
